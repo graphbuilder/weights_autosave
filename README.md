@@ -1,15 +1,14 @@
 # weights_autosave
 Weights_Autosave
-
-
-To run:
+    
+    To run:
     usage: weights_autosave.py [-h] [--weight_dir WEIGHT_DIR]
                                [--weight_prefix WEIGHT_PREFIX]
                                [--weight WEIGHT_FIXED] [--save_dir SAVE_DIR]
                                [--detector_cmd DETECTOR_CMD]
                                [--iou_ratio IOU_RATIO] [--period PERIOD]
                                [--nbest NBEST] [--log LOG] [--verbose VERBOSE]
-    
+                               
     Auto-save the weight file when training yolo
     
     optional arguments:
